@@ -1,0 +1,141 @@
+/* magin, padding, border, width, height compoem o conceito de caixa/box model do css */
+/* body { 
+    margin: 0;
+    padding: 8px;}
+.page { 
+    border: 1px solid red;
+    padding: 88px;
+    margin: 80px;}
+    */
+/* padding sera usado para preenchimentos de espacos */
+
+body {
+    margin: 0;
+  
+    font-family: "JetBrains Mono", monospace;
+    
+    background: #2C2B3D;
+   
+    color: #FFFFFF;
+    
+  }
+  
+  .page {
+    width: 1092px;
+
+    margin: 0 auto;
+
+  }
+
+  .page footer{
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 71px;
+    margin-bottom: 100px;
+  }
+  
+  
+  a { 
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-weight: normal;
+  }
+
+  ul { 
+
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    list-style: none;
+    align-items: center;
+    
+  }
+  
+  ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* pseudo-class */
+  ul li a:hover {
+    color: #00BFA6;
+    font-weight: bold;
+     
+  }
+
+  footer {
+    border-top: 1px solid #00BFA6;
+    
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+
+    width: 570px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  footer a:hover{
+    color: #00BFA6;
+    font-weight: bold;
+
+  }
+  
+  h1, ul, footer{
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFFFFF;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+    text-align: center;
+    margin-bottom: 157px;
+  }
+  
+  section h1 {
+    font-size: 36px;
+    line-height: 40px;
+  
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  section span {
+    color: #00BFA6;
+    font-weight: bold;
+  }
+
+  section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #c2c2c2;
+    margin-bottom: 30px;
+
+  
+    width: 600px;
+    text-align: center;
+    margin: 0;
+  /* para quebrar a linha dentro do css voce devera usar width, o que sera o tamanho da caixa do texto */
+  }
+  
+  #padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+
+  }
